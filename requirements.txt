@@ -1,5 +1,6 @@
 absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
 aiocontextvars==0.2.2
+gunicorn
 altair==4.1.0
 altgraph==0.17.2
 anyio==3.5.0
