@@ -1,4 +1,3 @@
-absl-py @ file:///opt/conda/conda-bld/absl-py_1639803114343/work
 aiocontextvars==0.2.2
 gunicorn
 altair==4.1.0
@@ -29,7 +28,6 @@ certifi==2021.5.30
 cffi==1.15.0
 chardet==4.0.0
 charset-normalizer==2.0.10
-ChatterBot @ file:///E:/ChatterBot
 clang==5.0
 click==8.0.3
 colorama==0.4.4
@@ -46,7 +44,6 @@ dash-core-components==2.0.0
 dash-extensions==0.0.71
 dash-html-components==2.0.0
 dash-table==5.0.0
-dataclasses @ file:///tmp/build/80754af9/dataclasses_1614363715916/work
 decorator==4.4.2
 defusedxml==0.7.1
 distro==1.7.0
@@ -100,8 +97,6 @@ jupyter-core==4.9.2
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.1.0
 keras==2.6.0
-Keras-Applications @ file:///tmp/build/80754af9/keras-applications_1594366238411/work
-Keras-Preprocessing @ file:///tmp/build/80754af9/keras-preprocessing_1612283640596/work
 kiwisolver==1.3.1
 loguru==0.6.0
 Markdown==3.3.6
@@ -125,7 +120,6 @@ ninja==1.10.2.3
 nltk==3.6.7
 notebook==6.4.10
 numexpr==2.8.1
-numpy @ file:///C:/ci/numpy_and_numpy_base_1603480701039/work
 oauthlib==3.2.0
 onnx==1.5.0
 onnx-simplifier==0.3.5
@@ -176,7 +170,6 @@ PyRect==0.1.4
 pyrsistent==0.18.0
 PyScreeze==0.1.28
 python-dateutil==2.8.2
--e git+https://github.com/mindee/doctr.git@fddceba7bee5098b4219b7ba6a0bdf4f4a98adfe#egg=python_doctr
 pytweening==1.0.4
 pytz==2021.3
 pytz-deprecation-shim==0.1.0.post0
@@ -249,10 +242,8 @@ watchdog==2.1.6
 wcwidth==0.2.5
 WeasyPrint==52.5
 webencodings==0.5.1
-Werkzeug @ file:///opt/conda/conda-bld/werkzeug_1645628268370/work
 widgetsnbextension==3.6.0
 win32-setctime==1.1.0
 wincertstore==0.2
 wrapt==1.12.1
 XlsxWriter==3.0.3
-zipp @ file:///tmp/build/80754af9/zipp_1633618647012/work
