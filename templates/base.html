@@ -1,0 +1,33 @@
+<html>
+  <head>
+
+    <title>Video </title>
+  </head>
+  <body>
+    <h1>Disease detection</h1>
+    <img src="{{ url_for('video_feed') }}">
+     <input id="input" type="text" name="fname"><br>
+     <button onclick="myFunction()" type="button">Scan</button>
+     <h1>
+       <center>
+         {{ prediction_text }} 
+        </center>
+      </h1>
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+     <script>
+function myFunction() {
+  var name = document.getElementById("input").value;
+  console.log(name);
+  $.post("/takeimage",
+   {
+     name: name
+   },
+   function(data, status){
+     alert("Data: " + data + "\nStatus: " + status);
+   });
+   
+}
+</script>
+
+  </body>
+</html>
